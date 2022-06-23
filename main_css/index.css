@@ -1,0 +1,30 @@
+
+body{
+background-color: rgba(0, 0, 0, 0.342);
+}
+.woo{
+    color: red;
+    font-size: 30px;
+}
+#first-element{
+    color: blue;
+    border: 3px solid black;
+
+}
+@media screen and(max-width: 989px){
+div.first-element{
+    display: none;
+    padding: 20px;
+}
+}
+    
+.container{
+    border: 5px solid palevioletred;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
